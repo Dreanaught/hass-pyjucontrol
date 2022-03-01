@@ -5,9 +5,7 @@
   "issue_tracker": "https://github.com/Dreanaught/hass-pyjucontrol/issues",
   "dependencies": [],
   "config_flow": true,
-  "codeowners": [
-    "@Dreanaught",
-  ],
+  "codeowners": ["@Dreanaught"],
   "requirements": [],
   "iot_class": "cloud_polling",
   "version": "0.1.0"
