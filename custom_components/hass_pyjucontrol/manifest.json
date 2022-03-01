@@ -6,7 +6,7 @@
   "dependencies": [],
   "config_flow": true,
   "codeowners": [
-    "@Dreanaught"
+    "@Dreanaught",
   ],
   "requirements": [],
   "iot_class": "cloud_polling",
