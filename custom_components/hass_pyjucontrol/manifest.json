@@ -1,0 +1,10 @@
+{
+  "domain": "hass_pyjucontrol",
+  "name": "Home Assistant PyJU-Control",
+  "documentation": "https://github.com/Dreanaught/hass-pyjucontrol",
+  "issue_tracker": "https://github.com/Dreanaught/hass-pyjucontrol/issues",
+  "dependencies": [],
+  "config_flow": true,
+  "codeowners": ["@Dreanaught"],
+  "requirements": []
+}

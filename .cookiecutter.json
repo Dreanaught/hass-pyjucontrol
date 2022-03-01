@@ -1,0 +1,10 @@
+{
+  "_template": "gh:oncleben31/cookiecutter-homeassistant-custom-component",
+  "class_name_prefix": "PyJuControl",
+  "domain_name": "hass_pyjucontrol",
+  "friendly_name": "Home Assistant PyJU-Control",
+  "github_user": "Dreanaught",
+  "project_name": "hass-pyjucontrol",
+  "test_suite": "yes",
+  "version": "0.1.0"
+}
