@@ -78,6 +78,8 @@ jobs:
           python-version: ${{ env.DEFAULT_PYTHON }}
       - name: Install requirements
         run: |
+          python3.9 -m venv env
+          source env/bin/activate
           pip install --constraint=.github/workflows/constraints.txt pip
           pip install -r requirements_test.txt
       - name: Tests suite
