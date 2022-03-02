@@ -28,7 +28,7 @@ jobs:
 
       - name: instantiate python venv
         run: |
-          ${{ env.DEFAULT_PYTHON }} -m venv env
+          python3.9 -m venv env
           source env/bin/activate
 
       - name: Upgrade pip
