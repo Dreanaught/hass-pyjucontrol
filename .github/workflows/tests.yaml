@@ -26,6 +26,11 @@ jobs:
         with:
           python-version: ${{ env.DEFAULT_PYTHON }}
 
+      - name: instantiate python venv
+        run: |
+          ${{ env.DEFAULT_PYTHON }} -m venv env
+          source env/bin/activate
+
       - name: Upgrade pip
         run: |
           pip install --constraint=.github/workflows/constraints.txt pip
